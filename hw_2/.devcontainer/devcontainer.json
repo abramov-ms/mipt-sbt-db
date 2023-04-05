@@ -1,0 +1,7 @@
+{
+    "name": "mongodb",
+    "dockerComposeFile": "docker-compose.dev.yml",
+    "service": "mongo",
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/mongodb/workspace"
+}

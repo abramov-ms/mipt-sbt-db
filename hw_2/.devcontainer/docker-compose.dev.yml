@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  mongo:
+    image: mongo
+    volumes:
+      - ../:/mongodb/workspace/
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=hackme
+    restart: always
