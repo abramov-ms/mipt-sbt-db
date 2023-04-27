@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Play With Redis",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/go/playwithredis/cmd",
+            "args": [
+                "--addrs=localhost:7000,localhost:7001,localhost:7002",
+                // "--import",
+                // "${workspaceFolder}/resources/imdb.json",
+                "--load=166896",
+            ],
+        },
+    ],
+}
