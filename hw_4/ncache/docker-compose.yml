@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  ncache:
+    build: .
+    volumes:
+      - ./:/workspace/
+    restart: always
+    ports:
+      - 8251:8251
+      - 9800:9800
